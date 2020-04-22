@@ -100,6 +100,7 @@ textarea {
 body {
   font-family: Georgia;
   background: #E0E0E0;
+  box-sizing: border-box;
 }
 .header-top-section .navbar {
     background: #2d2928;
@@ -143,8 +144,69 @@ body {
 }
 .logo p {
   font-size: 20px;
-  color: #4a4a4a;
-  margin-bottom: 30px;
+  color: #acacac;
+  margin-bottom: 25px;
+}
+.header-bottom-section .navbar {
+  border-top: 4px double #999999;
+  border-bottom: 4px double #999999;
+}
+.header-bottom-section .navbar ul li {}
+.header-bottom-section .navbar a {
+  color: #333333;
+  text-transform: uppercase;
+}
+.header-bottom-section .navbar a:hover {
+  color: #999999;
+}
+.dropdown-menu {
+    background-color: #E0E0E0;
+}
+.main-top-section {
+  padding: 35px 0px;
+  border-bottom: 3px double #999999;
+}
+.main-top-left {}
+.main-top-left img {
+
+}
+.main-top-left h2 {
+  margin: 20px 0px;
+  color: #444444;
+  font-size: 22px;
+}
+.main-top-left p {
+    color: #666666;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.main-top-right {
+  overflow: hidden;
+}
+.mr-left {
+    border: 1px solid #999999;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.mr-left:last-child {
+  margin-bottom: 0px;
+}
+.mr-left img {
+    border: 4px solid #fff;
+}
+.mr-right {
+    float: left;
+    width: 499px;
+}
+.mr-right h2 {
+  color: #444444;
+  font-size: 22px;
+}
+.mr-right p {
+  color: #666666;
+  font-size: 16px;
 }
 /* ==========================================================================
    Helper classes
