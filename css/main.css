@@ -372,8 +372,41 @@ body {
   .main-top-left img {height: 200px;}
   .logo h2 {font-size: 93px;margin-top: 0px;margin-bottom: 0px;}
   .mll-content {margin-left: 35px;}
-  .mll-content p {font-size: 10px;}
+  .mll-content p {font-size: 9px;}
+  .mll-content a {font-size: 11px;}
   .mll-img {width: 85px;height: 85px;}
+  .mll-content h2 {font-size: 9px;}
+  .mtr a {font-size: 12px;}
+  .ml-bottom h2 {font-size: 7px;font-weight: bold;}
+  .ml-bottom h3 {font-size: 9px;}
+  .ml-bottom p {font-size: 9px;}
+  .footer-top-section a {font-size: 13px;}
+@media screen and (max-width: 425px){
+  .logo h2 {font-size: 50px;}
+  .logo p {font-size: 12px;}
+  .main-top-left p {margin-bottom: 15px;}
+  .mll-content {margin-left: 0px;}
+  .mll-content h2 {font-size: 15px;}
+  .mll-content p {font-size: 13px;}
+  .ml-bottom h2 {font-weight: bold;}
+  .ml-bottom h3 {font-size: 12px;}
+  .ml-bottom p {font-size: 11px;}
+  .mrb-left img {height: 250px;margin-bottom: 15px;}
+  .mtr {float: left;width: 33.33%;}
+  .footer-top-section {display: none;}
+  .footer-bottom-section {border-top: 3px double #999;text-align: center;}
+  .ft-right {float: none;}
+  .footer-bottom-section p {padding: 10px 0px 0px 0px;margin: 0;}
+}
+@media screen and (max-width: 375px){
+  .ml-bottom h2 {font-size: 11px;font-weight: bold;}
+  .mtr a {font-size: 10px;}
+  .mr-right {margin-left: 10px;width: 100%}
+  .mr-right h2 {font-size: 13px;font-weight: bold;}
+  .mr-right p {font-size: 10px;}
+  .mll-content {margin-left: 10px;}
+  .mll-content p {font-size: 12px;}
+  .mtr {display: none;}
 }
 /* ==========================================================================
    Helper classes
